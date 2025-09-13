@@ -6,3 +6,4 @@ set -e
 chmod +x ./scripts/*.sh
 bash ./scripts/apt.sh
 bash ./scripts/flatpak.sh
+bash ./scripts/wallpapers.sh "$(pwd)"
