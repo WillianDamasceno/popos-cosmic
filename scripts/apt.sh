@@ -3,16 +3,26 @@
 # Exit if anything fails
 set -e
 
-echo "Updating apt package list..."
+echo ""
+echo "sudo apt update"
+echo ""
 sudo apt update -y
-echo "Done!"
+echo ""
+echo "================="
 
+echo ""
+echo "sudo apt upgrade -y"
+echo ""
+sudo apt upgrade -y
+echo ""
+echo "================="
+
+echo ""
 echo "Installing apt packages..."
+echo ""
 sudo apt install -y \
   htop \
   sqlite3
-echo "Done!"
+echo ""
+echo "================="
 
-echo "Upgrading apt packages..."
-sudo apt upgrade -y
-echo "Done!"

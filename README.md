@@ -14,5 +14,5 @@ This repository contains the scripts and configuration files for a fresh install
 
 ```bash
 chmod +x ./install.sh
-./install.sh
+sudo ./install.sh
 ```
